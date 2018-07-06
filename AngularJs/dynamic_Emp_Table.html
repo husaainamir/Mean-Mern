@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<script src="angular.min.js">
+	</script>
+    <style>
+table, th, td {
+    border: 1px solid lightblue;
+}
+th{color:green;}
+</style>
+</head>
+<!--  <body ng-App=""ng-init=" marks=[10,20,30]">
+      mark 1:{{marks[0]}} <br>  
+       mark 2:{{marks[1]}} <br>
+        mark 3:{{marks[2]}} <br> -->
+
+
+       <body ng-App=""ng-init="  employee=[{empid:'e1001',empName:'Ram',Basicpay:20000}
+       ,{empid:'e1002',empName:'Raju',Basicpay:35000},{empid:'e1003',empName:'Amir',Basicpay:30000}]"/>
+       <h1> Employee details</h1>
+        <table> 
+        	<tr>
+        		<th>EmployeeId</th>
+        		<th>Employee Name</th>
+        		<th> Basic pay</th>
+        	</tr>
+        	<tr ng-repeat="employees in employee|orderBy:'empName':false">
+        		<td>{{employees.empid}}</td>
+        		<td>{{employees.empName}}</td>
+        		<td>{{employees.Basicpay}}</td>
+        	</tr>
+        	
+         </table>
+</body>
+</html>

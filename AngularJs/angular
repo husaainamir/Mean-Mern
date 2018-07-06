@@ -1,0 +1,4 @@
+<div ng-controller="MyCtrl">
+    <input type="color" value="#f0f0f0" />
+    <input type="color" value={{getColor()}} />
+</div

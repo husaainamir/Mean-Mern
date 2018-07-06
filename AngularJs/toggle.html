@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<style >
+		.vis{
+      display:none;
+}
+	</style>
+	<script src="angular.min.js"></script>
+</head>
+<body>
+<button ng-click="ctrl()">test </button>
+    <div ng-class="{{state}}" >
+        hello test
+    </div>
+<script>
+function ctrl($scope) {    
+    $scope.state = vis;
+    $scope.toggle = function () {
+      state = !state;
+    };
+}
+
+ </script>
+</body>
+</html>
