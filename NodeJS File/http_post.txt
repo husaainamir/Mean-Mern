@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Fill out this Form</title>
+</head>
+<body>
+	<h1>Fill out this Form</p>]
+	<form action="/" method="post">
+	<label>First name</label>
+	<input typ"text" id="first" name="first" required/>
+	<label>Email</label>
+	<input typ"email" id="email" name="email" required/>
+	<button>send</button>
+</form>
+</body>
+</html>

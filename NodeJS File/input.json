@@ -1,0 +1,29 @@
+[
+{
+"name":"samsung",
+"cost":1500,
+"avail":"in stock"
+},
+{
+
+"name":"Apple i phone",
+"cost":8500,
+"avail":"on back order"
+},
+{
+
+
+"name":"vivi9",
+"cost":28500,
+"avail":"in stock"
+},
+
+{
+
+"name":"redmi",
+"cost":28500,
+"avail":"on back order"
+
+}]
+
+                              
